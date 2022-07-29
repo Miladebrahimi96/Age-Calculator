@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(rgba(104, 114, 151, 0.7),rgba(1, 2, 2, 0.342)) , url('image/age.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh;
+   padding: 0 30px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #f5f6fa;
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.7);
+}
+form div {
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+input {
+    width: 120px;
+    text-align: center;
+    padding: 8px 16px;
+    border: none;
+    font-size: 20px;
+    color: #192a56;
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: 2px solid #c23616;
+}
+
+
+label {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p {
+    font-size: 30px;
+    max-width: 600px;
+    text-align: center;
+    color: #e84118;
+    background-color: rgba(245, 246, 250,.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+button{
+    margin: 20px 0;
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: #c23616;
+    border: none;
+    color: #f5f6fa;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(39, 60, 117,1.0);
+}
+button:active{
+    transform: scale(.9);
+}
